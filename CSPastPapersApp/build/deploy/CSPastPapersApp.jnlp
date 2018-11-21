@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CSPastPapersApp.jnlp">
+  <information>
+    <title>CSPastPapersApp</title>
+    <vendor>CSStudent</vendor>
+    <description>CSPastPapersApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CSPastPapersApp.jar" size="45734" download="eager" />
+    <jar href="libs/commons-cli-1.2.jar" size="41123" download="eager" />
+    <jar href="libs/commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="libs/commons-io-2.4.jar" size="185140" download="eager" />
+    <jar href="libs/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="libs/controlsfx-8.20.8.jar" size="957666" download="eager" />
+    <jar href="libs/httpclient-4.3.3.jar" size="589512" download="eager" />
+    <jar href="libs/httpcore-4.3.2.jar" size="282269" download="eager" />
+    <jar href="libs/httpmime-4.3.1.jar" size="37078" download="eager" />
+    <jar href="libs/javax.ws.rs-api-2.0-m02.jar" size="90467" download="eager" />
+    <jar href="libs/json-20140107.jar" size="64952" download="eager" />
+    <jar href="libs/mysql-connector-java-5.1.21.jar" size="827942" download="eager" />
+    <jar href="libs/opencsv-2.3.jar" size="19827" download="eager" />
+    <jar href="libs/spring-core-5.0.0.RC4.jar" size="1200607" download="eager" />
+    <jar href="libs/spring-web-5.0.0.RC4.jar" size="1205343" download="eager" />
+    <jar href="libs/tabula-1.0.1-jar-with-dependencies.jar" size="12050102" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="address.AppRun"  name="CSPastPapersApp" />
+  <update check="background"/>
+</jnlp>

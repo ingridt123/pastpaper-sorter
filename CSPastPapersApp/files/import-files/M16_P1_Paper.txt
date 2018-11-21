@@ -1,0 +1,50 @@
+M16/4/COMSC/SP1/ENG/TZ0/XX
+Computer science
+Standard level
+Paper 1
+Wednesday 4 May 2016 (afternoon)
+1 hour 30 minutes
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yySection A: answer all questions.
+yySection B: answer all questions.
+yyThe maximum mark for this examination paper is [70 marks].
+2216 – 7014
+7 pages © International Baccalaureate Organization 2016
+– 2 – M16/4/COMSC/SP1/ENG/TZ0/XX
+Section A
+Answer all questions.
+1. Outline one problem of maintaining legacy systems. [2]
+2. Explain what is meant by user acceptance testing. [2]
+3. Discuss one advantage and one disadvantage of printed material, when compared to online 
+support, as a method to provide user documentation. [4]
+4. Outline the use of a failover system. [2]
+5. Describe the function of the control unit (CU) in the central processing unit (CPU). [2]
+6. Describe how the cache memory can speed up the functioning of a processor. [2]
+7. Outline one feature of the operating system that needs to be considered when running a  
+game application.  [2]
+8. Construct the truth table for the following expression.
+  A xor (B or C) [3]
+9. In an 8-bit register, state the binary representation of the hexadecimal number 3B. [2]
+– 3 – M16/4/COMSC/SP1/ENG/TZ0/XX
+10. Trace the following fragment, for N=139 and L=3, by copying and completing the trace table given 
+below.
+  D = N div L
+  Z = 1
+  B = false
+  loop while Z<L 
+    D = D div L
+   Z = Z+1
+   B = NOT B 
+  end loop 
+	 	 if	(D	≠	0	AND	B)	then	
+	 	 	 output(D,	B)	
+  else 
+	 	 	 output(Z,	NOT	B)
+  end if
+D Z B Z<L ? output
+… … … … …
+[4]
+Turn over 
+– 4 – M16/4/COMSC/SP1/ENG/TZ0/XX
+Blank page

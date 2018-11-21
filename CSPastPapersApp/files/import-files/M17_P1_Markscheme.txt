@@ -1,0 +1,270 @@
+M17/4/COMSC/HP1/ENG/TZ0/XX/M 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Markscheme 
+ 
+ 
+ 
+ 
+ 
+May 2017 
+ 
+ 
+ 
+ 
+ 
+Computer science 
+ 
+ 
+ 
+ 
+ 
+Higher level 
+ 
+ 
+ 
+ 
+ 
+Paper 1 
+ 
+ 
+19 pages 
+ – 2 – M17/4/COMSC/HP1/ENG/TZ0/XX/M 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This markscheme is confidential and for the exclusive use 
+of examiners in this examination session. 
+ 
+It is the property of the International Baccalaureate and 
+must not be reproduced or distributed to any other person 
+without the authorization of the IB Global Centre, Cardiff. 
+ 
+ 
+  
+ 
+ – 3 – M17/4/COMSC/HP1/ENG/TZ0/XX/M 
+The following are the annotations available to use when marking responses. 
+ 
+Annotation Explanation Associated shortcut 
+Good Response/Good Point (Alt+) 0 
+ 
+Incorrect Point (Alt+) 1 
+ 
+Unclear  
+ 
+ BOD Benefit of the doubt  
+ NBOD No benefit of doubt  
+ SEEN Seen  
+ TV Too vague  
+ REP Repetition   
+ FT Follow through (Alt+) 2 
+ L (Comp Sci) Language  (Alt+) 3 
+ D Description (Alt+) 4 
+ A+ Analysis (Alt+) 5 
+ REF Reference (Alt+) 6 
+    DEV Development  (Alt+) 7 
+ B+ Balanced argument  
+ OC Off course (Alt+) 8 
+ EVAL Evaluation   
+ O Opinion  
+ Dynamic, horizontal line that can be expanded (Alt+) 9 
+ Dynamic, horizontal wavy line that can be expanded  
+ Dynamic, vertical wavy line that can be expanded  
+ Text box  
+You must make sure you have looked at all pages.  Please put the  annotation on any blank page, 
+to indicate that you have seen it. 
+  
+ 
+ – 4 – M17/4/COMSC/HP1/ENG/TZ0/XX/M 
+General marking instructions 
+ 
+1. Follow the markscheme provided, award only whole marks and mark only in RED. 
+ 
+2. Make sure that the question you are about to mark is highlighted in the mark panel on the  
+right-hand side of the screen. 
+ 
+3.  Where a mark is awarded, a tick/check ( ) must be placed in the text at the precise point where 
+it becomes clear that the candidate deserves the mark.  One tick to be shown for each mark 
+awarded. 
+ 
+4.  Sometimes, careful consideration is required to decide whether or not to award a mark.  In these 
+cases use RM™ Assessor annotations to support your decision.  You are encouraged to write 
+comments where it helps clarity, especially for re-marking purposes.  Use a text box for these 
+additional comments.  It should be remembered that the script may be returned to the candidate. 
+ 
+5.  Personal codes/notations are unacceptable. 
+ 
+6.  Where an answer to a part question is worth no marks but the candidate has attempted the part 
+question, enter a zero in the mark panel on the right-hand side of the screen.  Where an answer to 
+a part question is worth no marks because the candidate has not attempted the part question, 
+enter an “NR” in the mark panel on the right-hand side of the screen. 
+ 
+7.  Ensure that you have viewed every page including any additional sheets.  Please ensure that you 
+stamp “SEEN” on any page that contains no other annotation. 
+ 
+8.  A mark should not be awarded where there is contradiction within an answer.  Make a comment to 
+this effect using a text box or the “CON” stamp. 
+  
+ 
+ – 5 – M17/4/COMSC/HP1/ENG/TZ0/XX/M 
+Subject details:  Computer science HL paper 1 markscheme 
+ 
+Mark allocation 
+ 
+Section A: Candidates are required to answer all questions.  Total 25 marks. 
+Section B: Candidates are required to answer all questions.  Total 75 marks. 
+  Maximum total = 100 marks. 
+ 
+General 
+ 
+A markscheme often has more specific points worthy of a mark than the total allows.  This is intentional.  
+Do not award more than the maximum marks allowed for that part of a question. 
+ 
+When deciding upon alternative answers by candidates to those given in the markscheme, consider the 
+following points: 
+ 
+• Each statement worth one point has a separate line and the end is signified by means of a  
+semi-colon (;). 
+ 
+• An alternative answer or wording is indicated in the markscheme by a “/”; either wording can be 
+accepted. 
+ 
+• Words in (   ) in the markscheme are not necessary to gain the mark. 
+ 
+• If the candidate’s answer has the same meaning or can be clearly interpreted as being the same as 
+that in the markscheme then award the mark. 
+ 
+• Mark positively.  Give candidates credit for what they have achieved and for what they have got 
+correct, rather than penalizing them for what they have not achieved or what they have got wrong. 
+ 
+• Remember that many candidates are writing in a second language; be forgiving of minor linguistic 
+slips.  In this subject effective communication is more important than grammatical accuracy. 
+ 
+• Occasionally, a part of a question may require a calculation whose answer is required for subsequent 
+parts.  If an error is made in the first part then it should be penalized.  However, if the incorrect answer 
+is used correctly in subsequent parts then follow through marks should be awarded.  Indicate this 
+with “FT”. 
+ 
+ 
+General guidance 
+ 
+Issue Guidance 
+Answering • In the case of an “identify” question, read all answers and mark positively up to the 
+more than maximum marks.  Disregard incorrect answers. 
+the quantity • In the case of a “describe” question, which asks for a certain number of facts  
+of eg “describe two kinds”, mark the first two correct answers.  This could include two 
+responses descriptions, one description and one identification, or two identifications. 
+prescribed • In the case of an “explain” question, which asks for a specified number of 
+in the explanations eg “explain two reasons  ”, mark the first two correct answers.   
+questions This could include two full explanations, one explanation, one partial  
+explanation etc. 
+  
+ 
+ – 6 – M17/4/COMSC/HP1/ENG/TZ0/XX/M 
+Section A 
+ 
+1. It is when an application/program is tested/ to get feedback (for errors/improvements); 
+      By releasing it to the general public/users/stakeholders before final release; [2] 
+ 
+ 
+2. Award up to [2 max]. 
+ Natural disaster/power failure; 
+ Accidental deletion; 
+      Malicious activities (hacking/theft/viruses);                                      
+      Hardware/software/system failure; 
+      Bad integration/migration of systems/data;  
+Transmission error;    
+Lossy compression when the original no longer available only the modified version; [2] 
+ 
+ 
+3. Award up to [2 max]. 
+ To patch any vulnerabilities/bugs/cyberspace threats; 
+      To provide improved functionality/new functions/usability/maximise efficiencies; 
+To generate income for the software company/to innovate and stay ahead of other software 
+companies;   
+         To ensure compatibility with other (updated) technologies; [2] 
+ 
+ 
+4. Cache memory can be accessed/is faster than RAM; 
+It is used to hold common/expected/frequently used data/operations;   
+Closer to CPU than RAM/situated between RAM and CPU/on same board as CPU/with faster 
+read/write speed; 
+Cache memory is static RAM and this memory doesn't need to be constantly refreshed; [2] 
+ 
+ 
+5. The OS allocates (and deallocates) specific sections of memory to each  
+program/process/module; 
+      This ensures that the memory assigned to one program is not overwritten; 
+ Uses secondary/virtual memory to allow more processes to run simultaneously; 
+Note:  Do not accept vague reasons. [2] 
+ 
+ 
+6. Award up to [2 max] for any two of the following:  
+ Physical layer; 
+ Data link layer; 
+ Network layer; 
+ Transport layer; 
+ Session layer; 
+ Presentation layer; 
+ Application layer;  [2] 
+ 
+ 
+7. Some compression methods (lossy) discard data; 
+      Decompression will not return the complete file/some detail will have been removed; 
+Which in some cases eg audio/video may be unacceptable;       
+If original not saved/lost there is no way to recover it; [3] 
+ 
+  
+ 
+ – 7 – M17/4/COMSC/HP1/ENG/TZ0/XX/M 
+ 
+8. Award up to [3 max]. 
+The MAC address identifies a specific device (network card/controller); 
+MAC address checked against list of approved addresses/whitelist If not on list access to network 
+is denied; 
+Prevents unauthorised access/makes access more difficult/(unless  the NIC is cloned)/providing an 
+extra layer to authentication process; 
+data sent to a specific MAC address can only be accessed on that device; [3] 
+ 
+ 
+9. Data; 
+ A pointer/reference to the previous node; 
+ A pointer/reference to the next node;  [3] 
+ 
+ 
+10. Award up to [2 max]. 
+A recursive call involves the use of stacks; 
+For storing/pushing on/popping out data/ return addresses/return values etc; 
+If many recursive calls are made, the memory usage can be very large; [2] 
+ 
+ 
+11. (Have sensors that) can react to external stimuli/ changes in its environment;  
+without needing to contact any central/outside source/by making its own decisions/acts 
+independently;  [2] 
+ 
+ 
+  
+ 

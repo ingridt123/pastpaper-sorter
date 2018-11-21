@@ -1,0 +1,29 @@
+M17/4/COMSC/HP1/ENG/TZ0/XX
+Computer science
+Higher level
+Paper 1
+Friday 5 May 2017 (afternoon)
+2 hours 10 minutes
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yySection A: answer all questions.
+yySection B: answer all questions.
+yyThe maximum mark for this examination paper is [100 marks].
+2217 – 7011
+6 pages © International Baccalaureate Organization 2017
+– 2 – M17/4/COMSC/HP1/ENG/TZ0/XX
+Section A
+Answer all questions.
+1. Describe the use of beta testing. [2]
+2. Identify two causes of data loss. [2]
+3. Identify two reasons for releasing a software update. [2]
+4. Explain why cache memory can speed up the processing within a computer. [2]
+5. One of the functions of an operating system is memory management.  
+ Describe how this function prevents the system from crashing when more than one program is 
+run at the same time. [2]
+6. Identify any two of the layers of the OSI model. [2]
+7. Explain how compression of data may lead to negative consequences. [3]
+8. Explain how the use of media access control (MAC) addresses can improve security. [3]
+9. Identify the components of a node in a doubly linked list. [3]
+10. Outline the reason why recursive solutions can be memory intensive. [2]
+11. Identify two features of an autonomous agent acting within a larger system. [2]

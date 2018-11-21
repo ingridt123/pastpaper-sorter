@@ -1,0 +1,156 @@
+M16/4/COMSC/SP1/ENG/TZ0/XX
+Computer science
+Standard level
+Paper 1
+Wednesday 4 May 2016 (afternoon)
+1 hour 30 minutes
+Instructions to candidates
+yyDo not open this examination paper until instructed to do so.
+yySection A: answer all questions.
+yySection B: answer all questions.
+yyThe maximum mark for this examination paper is [70 marks].
+2216 – 7014
+7 pages © International Baccalaureate Organization 2016
+– 2 – M16/4/COMSC/SP1/ENG/TZ0/XX
+Section A
+Answer all questions.
+1. Outline one problem of maintaining legacy systems. [2]
+2. Explain what is meant by user acceptance testing. [2]
+3. Discuss one advantage and one disadvantage of printed material, when compared to online 
+support, as a method to provide user documentation. [4]
+4. Outline the use of a failover system. [2]
+5. Describe the function of the control unit (CU) in the central processing unit (CPU). [2]
+6. Describe how the cache memory can speed up the functioning of a processor. [2]
+7. Outline one feature of the operating system that needs to be considered when running a  
+game application.  [2]
+8. Construct the truth table for the following expression.
+  A xor (B or C) [3]
+9. In an 8-bit register, state the binary representation of the hexadecimal number 3B. [2]
+– 3 – M16/4/COMSC/SP1/ENG/TZ0/XX
+10. Trace the following fragment, for N=139 and L=3, by copying and completing the trace table given 
+below.
+  D = N div L
+  Z = 1
+  B = false
+  loop while Z<L 
+    D = D div L
+   Z = Z+1
+   B = NOT B 
+  end loop 
+	 	 if	(D	≠	0	AND	B)	then	
+	 	 	 output(D,	B)	
+  else 
+	 	 	 output(Z,	NOT	B)
+  end if
+D Z B Z<L ? output
+… … … … …
+[4]
+Turn over 
+– 4 – M16/4/COMSC/SP1/ENG/TZ0/XX
+Blank page
+– 5 – M16/4/COMSC/SP1/ENG/TZ0/XX
+Section B
+Answer all questions.
+11.	 An	examination	office	of	a	university	must	securely	store	students’	examination	papers	and	
+their	grades.		The	office	keeps	the	documentation	of	past	students	for	two	years.		After	two	
+years	the	office	only	stores	the	student	grades.		All	documentation	of	current	students	is	
+frequently accessed for other operations and the volume of the data increases quickly. 
+	 To	better	support	its	operations,	the	office	is	creating	a	new	system	to	provide	this	storage.	
+ (a) Identify two aspects of the data that need to be taken into account during the planning 
+of the new system. [2]
+ (b) Describe how direct observations on the current system may provide information to 
+help propose a suitable new system. [3]
+	 A	prototype	of	the	new	system	is	created	to	present	to	the	examination	office.
+ (c) Describe the purpose of this prototype.  [3]
+	 The	examination	office	needs	to	upgrade	the	computing	resources	for	their	operations,	and	
+this will require data migration.
+ (d) Discuss two possible problems that may occur during data migration. [4]
+ (e) Outline one	economic	aspect	that	the	examination	office	needs	to	take	into	account	to	
+support parallel running. [3]
+12. A college has a high-speed network.  The network is accessible to all students and staff 
+through their personal accounts.
+ The network may be accessed by using desktop computers available in the college.  When 
+in the college, users can also use personal laptops to connect wirelessly or dock with an 
+Ethernet cable.  When not in the college, users can connect via a virtual private network (VPN) 
+over the internet. 
+ (a) In the given context, distinguish between Ethernet and wireless in terms of reliability  
+of transmission. [4]
+ (b) Describe two features of a VPN that make it secure. [4]
+ (c) State one technology that is necessary for a VPN. [1]
+The college is devising a policy for the use of its IT resources and services.  They are 
+considering prohibiting the use of external services such as cloud storage and blogs.
+	 (d)	 In	relation	to	the	specific	activities	that	may	be	carried	out	by	students,	discuss	two 
+advantages and two disadvantages of the use of external services.   [6]
+Turn over 
+– 6 – M16/4/COMSC/SP1/ENG/TZ0/XX
+13. A local charity organizes a half-marathon to raise money.  The rules to participate in the  
+half-marathon are as follows:
+y The organizers limit the total number of participants to 450
+y	 Participants	belong	to	a	team	and	each	team	must	have	at	least	three	and	at	most	five	
+participants
+y Each participant registers for the event independently from the other members of their 
+team, and they all declare their team name when registering
+y	 For	scoring,	the	team’s	final	time	is	the	sum	of	the	times	of	its	three	fastest	participants.		
+Participants	that	do	not	cross	the	finishing	line	within	2	hours	after	the	start,	are	assigned	
+a default time of 1000 minutes.  The winning team is the team with the smallest sum total.
+ 
+ During registration, an array, PARTICIPANTS, with 450 positions is used to hold the 
+abbreviated team names that are declared by each participant.  Simultaneously, a collection 
+TNAMES is generated: any new team name that is declared is added to the collection.
+ (a) State the minimum size of TNAMES to ensure the names of all potential teams can  
+  be stored.  [1]
+ Part of the array PARTICIPANTS	is	shown	below,	where,	for	example,	the	first	participant	
+declared that they are part of team TK.  The initial part of the collection TNAMES is also shown, 
+with arrows indicating the direction of growth.
+PARTICIPANTS
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] …
+TK W AC TK W TK AC W TK TK AC QA AC W AC …
+TNAMES
+TK W AC QA …
+ Both PARTICIPANTS and TNAMES are used to construct the array, TEAM, that groups all 
+participants who belong to the same team.  Part of the array TEAM is shown below. 
+TEAM
+[0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] …
+3 4 6 5 7 8 10 13 9 0 12 73 14 15 2 …
+ In TEAM, each element is related to one other index in the array, shown by the arrows on the 
+above diagram.  This relation will eventually form a closed path (for this example 0, 3, 5, 8, 9 
+and	back	to	0).		The	relation	reflects	the	information	in	PARTICIPANTS, by grouping people 
+who declared the same team name during registration.
+ Hence, participants 0, 3, 5, 8 and 9 are on the same team and, from PARTICIPANTS, that team 
+is TK.
+(This question continues on the following page)
+– 7 – M16/4/COMSC/SP1/ENG/TZ0/XX
+(Question 13 continued)
+ (b) Identify the position in PARTICIPANTS of the second participant that registered for  
+team QA. [1]
+ Part of the algorithm that generates the TEAM array is shown below, in pseudocode.
+	 //Input	PARTICIPANTS	array,	TNAMES	collection
+	 TEAM	 //	array	with	450	positions,	initialized	to	‘999’
+	 CURRENT	//	variable	to	store	current	name	of	team;
+	 T,	P	 //	variables	to	store	the	indexes	of	TEAM	and	PARTICIPANTS,
+	 	 //	respectively;
+	 MINP	 //	stores	the	first	index	P	of	members	of	the	CURRENT	team;
+	 TNAMES.resetNext() 
+loop	while	TNAMES.hasNext()
+	 	 	 	 CURRENT	=	TNAME.getNext()
+	 	 	 	 T	=	0;	P	=	0;	MINP	=	0	 //	variables’	initialization
+    //*
+    //* Code to be completed in part (c)(i)
+    //*
+    //* Code to be completed in part (c)(ii)
+    //*
+ end loop
+	 output	TEAM
+ (c) In order to complete this code, and return the correct TEAM array, 
+	 	 (i)	 construct	pseudocode	to	find	MINP,	the	first	index	in	PARTICIPANTS of the 
+CURRENT team, and use it to start the construction of TEAM [3]
+	 	 (ii)	 construct	pseudocode	to	find	the	other	participants	belonging	to	the	CURRENT 
+team, implementing the idea of the closed paths in the TEAM array.  [4]
+ As part of the program to determine the winning team, an array, TIMING, is maintained in 
+parallel to PARTICIPANTS.  For example, TIMING[5] and PARTICIPANTS[5] relate to the 
+same participant.  
+ TIMING	is	initialized	to	zero	before	the	race	starts,	and	updated	with	the	finishing	times	for	
+each participant.  The algorithm sum3best is able to output the sum of the three fastest times 
+from any group of times that are passed to the algorithm.
+	 (d)	 Describe	the	steps	of	an	algorithm	that	will	find	the	winning team,	as	defined	by	the	
+marathon rules on page 6.  Clearly mention the use of existing or of new data structures. [6]

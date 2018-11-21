@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="370.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="address.view.ChooseTopicsController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #b3b3b3; -fx-border-radius: 2;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="18.0">
+         <children>
+            <Label layoutX="30.0" layoutY="29.0" text="Topic" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="31.0" layoutY="47.0" text="Subtopic" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="53.0" />
+            <Label layoutX="52.0" layoutY="72.0" text="Subsubtopic" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="73.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="10.0" layoutY="10.0" style="-fx-background-color: #f3f3f3;" text="Choose Topics" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="3.0" right="3.0" />
+         </padding>
+      </Label>
+      <ButtonBar layoutX="332.0" layoutY="308.0" prefHeight="40.0" prefWidth="235.0" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="80.0">
+        <buttons>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#handleGetQuestions" prefHeight="26.0" text="Get Questions" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,135 @@
+N17/4/COMSC/HP1/ENG/TZ0/XX/M 
+Markscheme 
+November 2017 
+Computer science 
+Higher level 
+Paper 1 
+– 2 – N17/4/COMSC/HP1/ENG/TZ0/XX/M 
+This markscheme is the property of the International 
+Baccalaureate and must not be reproduced or distributed 
+to any other person without the authorization of the IB 
+Global Centre, Cardiff. 
+– 3 – N17/4/COMSC/HP1/ENG/TZ0/XX/M 
+Section A 
+1. Award up to [2 max].
+Fixed vocabulary;
+Unambiguous meaning;
+Consistent grammar;
+Consistent syntax;
+Provide a way to define basic data types and operations on those types (ability to write
+functions/procedures);
+Provide ability of Input and output handling;
+Provide some kind of loop that can be stopped / conditional statement / branching
+(conditional and  unconditional branching);
+It should have variables that reference computer memory, syntax for basic arithmetic
+and logical
+operations on those memory locations;
+It has to run on/be processed by a computer (ie it must have a compiler/interpreter);
+Note: do not accept aspects that address interoperability/portability/standards/
+user friendliness [2] 
+2. (a) A piece of computer hardware or software that accesses a service made
+available by a server /  
+The role of a client is to access a service made available by a server by sending 
+a request for service; 
+Note: the term client is to be understood only from the computing perspective, 
+ie this is not a human. [1] 
+(b) A program/host computer that awaits and fulfills requests from client programs (in
+the same or other computers) /
+The role of a server is to fulfill requests from client programs (which can reside in
+the same or in other computers)
+Note: the term server is to be understood only from the computing perspective,
+ie this is not a human. [1]
+3. Award up to [1 max].
+Text-to-speech;
+Voice recognition;
+Braille keyboards;
+Touch screen;
+Input from scanner; [1] 
+4. Award [1] for all correct input values, [1] for a correct A NOR B column and [1] for a
+correct (A NOR B) OR A column.
+A B A NOR B (A NOR B) OR A 
+FALSE FALSE TRUE TRUE 
+FALSE TRUE FALSE FALSE 
+TRUE FALSE FALSE TRUE 
+TRUE TRUE FALSE TRUE 
+[3]
+– 4 – N17/4/COMSC/HP1/ENG/TZ0/XX/M 
+5. Award [1] for each correctly placed gate, up to [3 max].
+[3] 
+Note: Award only [1] for an answer of: 
+6. (a) 5; [1] 
+(b) Award up to [3] as follows:
+[3] for fully correct response (sequence of output) “0;2;4”;
+[2] for response (sequence) “4;2;0” (all elements are correct, but they are in
+inverse order);
+[1] for response ”0” (only base case is correct);
+OR
+“0;2” (incomplete output, but initially correct, and with correct order);
+OR
+“–2;0;2;4”,“0;2;4;6” (correct sequence immersed in some unnecessary and
+incorrect context);
+[0] in all other cases (eg responses “2”, “4”, “2;0”, “2;4”, “4;2”);
+0 
+2 
+4 [3] 
+(c) Example answer 1
+Award marks as follows up to [4 max]. (There are 5 marking points);
+Award [1] for determining whether N is odd/even;
+Award [1] for correctly initializing and changing the value of the loop controlling
+variable (K);
+Award [1] for the correct condition in the while loop;
+Award [1] for output within the loop for an even N;
+Award [1] for output after the loop for an odd N;
+– 5 – N17/4/COMSC/HP1/ENG/TZ0/XX/M 
+ mystery(N) 
+if N mod 2 = 0 then 
+K = 0 
+loop while K <= N 
+  output K 
+K = K + 2 
+end loop
+ else 
+  output N 
+ end if 
+end mystery 
+Example answer 2 
+Award marks as follows up to [4 max]. (There are 5 marking points); 
+Award [1] for determining whether N is odd/even; 
+Award [1] for correctly initializing and changing the value of the loop controlling 
+variable (K); 
+Award [1] for the correct condition in while loop (note K < N); 
+Award [1] for output within the loop for an even N; 
+Award [1] for outputting N after the loop; 
+mystery(N) 
+K = 0 
+loop while (K < N) AND (N mod 2 = 0)  
+  output K 
+K = K + 2 
+end loop  
+ output N 
+end mystery
+Note: No marks for any attempt of program that contains recursive calls. 
+Reminder: in the Spanish version mystery() is called incognita(). 
+Remark: A correct program produces in output numbers in an ascending order, only. [4] 
+7. (a) Primary memory / RAM [1] 
+(b) Award up to [2 max].
+Note: there must be explicit reference to both address and data bus.
+Example 1
+Buses are used as physical connections to carry information to the CPU;
+The data bus transports data from/to CPU, whereas the address bus the memory
+address where the data is supposed to go/be;
+Example 2
+Data bus is a physical connection to transport data from-to CPU to be processed;
+Address bus is a physical connection to transport an address of memory storage
+where data (transported in the data bus) should be read/written;
+Note: Award [1], for responses that show some understanding of use of buses in
+CPU, for address location and data transport without using specialist
+terminology. [2]
+– 6 – N17/4/COMSC/HP1/ENG/TZ0/XX/M 
+8. Binary digit;
+(Minimal) unit of storage that can be set to 0 or 1; [1] 
+9. Award up to [2 max].
+It involves sending sample software to the intended audience;
+(Selected audience does not pay for this software);
+To try/use the software product;
+And give the feedback to the authors (which help in correcting bugs); [2]

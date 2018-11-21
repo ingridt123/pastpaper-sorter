@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="address.view.ChooseTopicsController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #b3b3b3; -fx-border-radius: 2;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="18.0">
+         <children>
+            <Hyperlink layoutX="32.0" layoutY="14.0" onAction="#handleCheckAll" style="-fx-border-color: transparent;" text="Check All" textFill="#1081c0" underline="true" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="20.0" />
+            <TreeView fx:id="tree" layoutX="33.0" layoutY="55.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="55.0" />
+            <ScrollPane hbarPolicy="AS_NEEDED" layoutX="549.0" layoutY="124.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="55.0">
+               <content>
+                  <GridPane fx:id="topicsGrid" maxWidth="520.0" minWidth="520.0" prefWidth="520.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="430.0" minWidth="430.0" prefWidth="430.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                     </columnConstraints>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="10.0" layoutY="10.0" style="-fx-background-color: #f3f3f3;" text="Choose Topics" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="10.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="3.0" right="3.0" />
+         </padding>
+      </Label>
+      <ButtonBar layoutX="332.0" layoutY="308.0" prefHeight="40.0" prefWidth="285.0" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="80.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#handleGetKeywords" text="View Keywords" />
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#handleGetQuestions" prefHeight="26.0" text="View Questions" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
